@@ -1,0 +1,33 @@
+body{
+
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+	font-family:Arial, Helvetica,sans-serif;
+}
+#heading{
+	background-color: black;
+	color:white;
+	padding: 15px 10px 15px 10px;
+}
+.container{
+	margin: auto;
+	width: 90%;
+}
+
+
+div.polaroid {
+  width: 400px;
+  height: 480px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 0px;
+}
+
+div.image_text_box {
+  text-align: center;
+  padding: 6px 12px;
+}

@@ -1,0 +1,278 @@
+.academics-body{
+  margin: 0;
+  padding: 0;
+  background: url(bg4.jpg) no-repeat;
+  background-size: cover;
+}
+.interests-body{
+  margin: 0;
+  padding: 0;
+  background: url(bg-hobby.jpg) no-repeat;
+  background-size: cover;
+}
+.index-body{
+  margin: 0;
+  padding: 0;
+  background: url(bg5.jpg) no-repeat;
+  background-size: cover;
+}
+
+.contacts-body{
+  margin: 0;
+  padding: 0;
+  background: url(contact.jpg) no-repeat;
+  background-size: cover;
+}
+/*navbar----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.navbar-container{
+  position: fixed;
+  background-color: rgba(0,0,0,0.6);
+}
+.navbar{
+  background-color: rgba(0,0,0,0.6);
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Century Gothic',sans-serif
+  
+}
+
+.navbar li {
+  float: left;
+}
+
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: rgba(0,0,100,0.6);
+}
+
+.active {
+  background-color: rgba(0,0,150,0.8);
+}
+/*
+navbar ends -------------------------------------
+
+.box-for-the-central{
+  float: left;
+}*/
+.box-for-the-central-acads{
+  float: right;
+  margin-right: 140px;
+  width: 880px;
+}
+
+.description{
+  font-family: 'Sofia';
+  font-size: 22px;
+}
+.box{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 780px;
+  /*position: fixed;*/
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari 3-8 */
+  transform: scale(1.25); 
+}
+.box-img{
+  border-radius: 10%;
+  border: 4px white solid;
+  width: 200px;
+  height: 200px;
+  animation: l-bar-for-index 2.2s 1;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 2.5px;
+  font-weight: 100;
+  animation: l-bar-for-index 2.2s 1;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 1.8px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+.copyright{
+  text-align: center;
+  color: white; 
+  padding-top: 10px; 
+  padding-left: 40px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  vertical-align: bottom;
+  background: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+
+
+
+/*------------------------Academics--------------------------------*/
+
+.interests-side-navbar, .acads-side-navbar, .contacts-side-navbar{
+  margin-top: 50px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding-top : 30px;
+  padding-left: 20px; 
+}
+.interests-side-navbar ul,a,li{
+  text-decoration: none;
+  color: white;
+  list-style: none;;
+}
+
+.acads-side-navbar li{
+  list-style: none;
+}
+
+.contacts-side-navbar li{
+  list-style: none;
+}
+
+.acads-side-navbar{
+  float: left;
+}
+
+.contacts-side-navbar{
+  float: left;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari 3-8 */
+  transform: scale(1.25);
+  transition-timing-function: ease; 
+}
+
+.interests-side-navbar li{
+  margin-top:40px; 
+  margin-left: 20px;
+  width: 20%;
+  background: rgba(1, 218, 211, 0.8);
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  /*margin: auto;
+  margin-top: 5%;*/
+  border: white solid 5px;
+  border-radius: 80px;
+  font-weight: bold;
+  min-width: 360px;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  animation: l-bar 2.2s 1;
+}
+
+.acads-side-navbar li{
+  margin-top:40px; 
+  margin-left: 20px;
+  width: 20%;
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  /*margin: auto;
+  margin-top: 5%;*/
+  border: grey solid 3px;
+  border-radius: 50px;
+  font-weight: bold;
+  min-width: 360px;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  animation: l-bar 2.2s 1;
+}
+
+.contacts-side-navbar li{
+  margin-top:40px; 
+  margin-left: 20px;
+  width: 20%;
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  /*margin: auto;
+  margin-top: 5%;*/
+  border: grey solid 3px;
+  border-radius: 100px;
+  font-weight: bold;
+  min-width: 360px;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  animation: l-bar 2.2s 1;
+}
+
+@keyframes l-bar{
+  0%{
+    color: rgba(0,0,0,0);
+    margin-bottom: -60px;
+  }
+}
+
+@keyframes l-bar-for-index{
+  0%{
+    color: rgba(0,0,0,0);
+    margin-bottom: -30px;
+  }
+}
